@@ -1,0 +1,787 @@
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+.sy_banner_1 {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.sy_head {
+    width: 100%;
+    height: auto;
+    background-color: #000000;
+    position: fixed;
+}
+
+.sy_header_top {
+    height: 30px;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.sy_header_top .iconfont {
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    margin: -3px 0px 0px 4px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.sy_header_top ul {
+    float: right;
+}
+
+.sy_header_top ul li {
+    float: left;
+    padding: 0 20px;
+    line-height: 30px;
+    height: 30px;
+}
+
+.sy_header_top a {
+    color: #c8cbcc;
+    font-size: 12px;
+}
+
+.sy_header_center {
+    height: 50px;
+    width: 1280px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.sy_header_center h1 {
+    display: inline;
+    padding-left: 20px;
+}
+
+.sy_header_center h1 a {
+    position: relative;
+    top: -12px;
+}
+
+.sy_header_center ul {
+    display: inline-block;
+}
+
+.sy_header_center li {
+    float: left;
+    width: 36px;
+    height: 50px;
+    margin: 0px 0px 0px 29px;
+    line-height: 43px;
+    text-align: center;
+}
+
+.sy_header_center li:last-of-type {
+    width: 108px;
+}
+
+.sy_header_center li a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.sy_header_center li:nth-of-type(4) {
+    width: 1px;
+    line-height: 60px;
+}
+
+.sy_header_center li span {
+    display: inline-block;
+    width: 1px;
+    height: 20px;
+    background-color: #666;
+}
+
+.sy_header_inputbox {
+    float: right;
+    position: relative;
+}
+
+.sy_header_input {
+    display: inline-block;
+    height: 50px;
+    line-height: 45px;
+    text-align: center;
+    position: relative;
+    left: -78px;
+}
+
+.sy_header_input .sy_input_1 {
+    width: 180px;
+    padding: 0 34px;
+    height: 32px;
+    outline: none;
+    box-sizing: border-box;
+    border: none;
+    overflow: hidden;
+}
+
+.sy_header_input .sy_input_1::-webkit-input-placeholder {
+    color: #b8b8b8;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.sy_search {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 32px;
+    left: 7px;
+    top: 9px;
+    background-color: #fff;
+    font-weight: 900;
+    color: #000000;
+    font-size: 20px;
+}
+
+.sy_cart {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 32px;
+    right: 4px;
+    top: 9px;
+    color: #909090;
+    font-size: 16px;
+    background-color: #fff;
+    display: none;
+}
+
+.sy_header_input_right {
+    display: inline-block;
+    width: 27px;
+    height: 32px;
+    margin-left: 7px;
+    position: absolute;
+    top: 12px;
+    right: 39px;
+}
+
+.sy_header_input_right i {
+    color: #fff;
+    font-size: 25px;
+}
+
+.sy_header_input_right_num {
+    color: #000;
+    font-size: 12px;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    right: 1px;
+    top: -12px;
+    left: 12px;
+    text-align: center;
+    background: #fff;
+    border-radius: 50%;
+    line-height: 32px;
+}
+
+.dl_content {
+    max-width: 990px;
+    margin: 90px auto 50px;
+    overflow: hidden;
+}
+
+.dl_content_top {
+    margin: 15px 0 0px;
+}
+
+.dl_content_top ul li {
+    float: left;
+    font-size: 14px;
+}
+
+.dl_content_top ul li a {
+    color: #000000;
+    font-size: 14px;
+}
+
+.dl_content_top ul li:nth-of-type(2) {
+    padding: 0 8px;
+}
+
+.dl_content_top ul li:last-of-type a {
+    color: #888888;
+}
+
+.dl_content_left {
+    max-width: 380px;
+    margin-top: 17px;
+    float: left;
+    padding-right: 166px;
+    border-right: solid 2px #ebebeb;
+}
+
+.dl_content_left2 {
+    max-width: 380px;
+    margin-top: 17px;
+    float: left;
+    padding-right: 166px;
+    border-right: solid 2px #ebebeb;
+    display: none;
+}
+
+.fanhui {
+    margin-right: 10px;
+}
+
+.dx {
+    width: 57%;
+    padding: 0 15px 10px 14px;
+    cursor: pointer
+}
+
+.zh {
+    width: 43%;
+    padding: 0 13px 10px;
+    cursor: pointer
+}
+
+.dl_content_left h4 {
+    padding: 0px 0px 10px;
+    font-size: 22px;
+    font-weight: 500;
+    color: #c8cbcc;
+    border-bottom: solid 2px #c8cbcc;
+}
+
+.dl_content_left2 h4 {
+    padding: 0px 0px 10px;
+    font-size: 22px;
+    font-weight: 500;
+    color: #c8cbcc;
+    border-bottom: solid 2px #c8cbcc;
+}
+
+
+/* 
+.dl_content_left h4 span {
+    display: inline-block;
+    line-height: 1;
+} */
+
+.hei {
+    color: #000;
+    font-weight: 700;
+    border-bottom: solid 2px #000;
+}
+
+.sj,
+.yx,
+.mm {
+    width: 380px;
+    margin: 20px 0 20px;
+    position: relative;
+}
+
+.synum,
+.yxnum,
+.mmnum {
+    width: 380px;
+    padding: 2px 30px 0px 10px;
+    height: 40px;
+    box-sizing: border-box;
+    outline: none;
+    border: solid 1px #c8cbcc;
+    font-size: 14px;
+}
+
+.synum_false,
+.yxnum_false,
+.mima_false {
+    color: #ff6d6d;
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 3px;
+    padding: 0px 10px;
+    display: none;
+}
+
+.xuan_2 {
+    display: none;
+}
+
+.sjh,
+.yxh,
+.mima {
+    font-size: 13px;
+    padding: 0 5px;
+    color: #888;
+    position: absolute;
+    top: 12px;
+    left: 10px;
+    background: #fff;
+}
+
+.yz {
+    width: 380px;
+    height: 42px;
+    position: relative;
+    display: none;
+}
+
+.yzpt {
+    color: #45494c;
+    width: 380px;
+    height: 42px;
+    background: #f7f9fa;
+    box-sizing: border-box;
+    border: solid 1px #e4e7eb;
+    font-size: 14px;
+    text-align: center;
+    line-height: 44px;
+    border-radius: 2px;
+}
+
+.yzpt_kuai {
+    width: 40px;
+    height: 38px;
+    border: solid 1px #d9dadb;
+    background: #fff url("../image/jl1.png") no-repeat;
+    background-position: 12px 0px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 0px 1px #d9dadb;
+    position: absolute;
+    top: 0;
+    left: 1px;
+}
+
+.sjyzbox {
+    position: relative;
+    width: 380px;
+    height: 40px;
+    margin: 20px 0;
+}
+
+.sjyz {
+    padding: 0 10px;
+    width: 380px;
+    height: 40px;
+    outline: none;
+    box-sizing: border-box;
+    border: 1px solid #c8cbcc;
+}
+
+.sjyzm {
+    font-size: 13px;
+    color: #888;
+    position: absolute;
+    top: 12px;
+    left: 10px;
+    background: #fff;
+}
+
+.hqyzm {
+    min-width: 100px;
+    height: 40px;
+    color: #fff;
+    background: #000;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    font-size: 14px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    line-height: 40px;
+}
+
+.xuan {
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.dui {
+    vertical-align: middle;
+    margin-right: 10px;
+    font-size: 24px;
+    background: #fff;
+    font-weight: 700;
+    color: #98989a;
+}
+
+.dui2 {
+    vertical-align: middle;
+    margin-right: 10px;
+    font-size: 24px;
+    background: #000;
+    color: #fff;
+    font-weight: "500";
+}
+
+.mb40px {
+    /* display: block; */
+    margin-bottom: 40px;
+}
+
+.xuan a {
+    text-decoration: underline;
+    color: #000;
+}
+
+.dengl p {
+    font-size: 14px;
+}
+
+.dengl {
+    border-bottom: dashed 1px #c8cbcc;
+}
+
+.dengl a {
+    display: block;
+    background-color: #000;
+    padding: 0 21px;
+    text-align: center;
+    height: 42px;
+    line-height: 42px;
+    color: #fff;
+    margin: 10px 0px 20px 0px;
+    cursor: pointer;
+}
+
+.qita p:first-of-type {
+    padding: 17px 0px;
+    font-size: 14px;
+}
+
+.qita p .icon {
+    font-size: 42px;
+    padding-right: 15px;
+}
+
+.qita p:last-of-type {
+    font-size: 12px;
+    color: #888888;
+    margin-top: 15px;
+}
+
+.dl_content_right {
+    float: right;
+    max-width: 410px;
+    margin-top: 17px;
+}
+
+.dl_content_right h4 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.dl_content_right p:first-of-type {
+    font-size: 14px;
+}
+
+.you {
+    margin-top: 40px;
+}
+
+.you p {
+    font-size: 14px;
+    line-height: 14px;
+    margin-bottom: 11px;
+}
+
+.icondui {
+    display: inline-block;
+    width: 20px;
+    height: 17px;
+    background: url(../image/jinglingtu.png) -272px -18px;
+    margin-right: 15px;
+    vertical-align: top;
+}
+
+.footer_top {
+    width: 100%;
+    background-color: #000;
+    margin-top: 23px;
+}
+
+.footer_top_con {
+    max-width: 1440px;
+    height: 100px;
+    margin: 0 auto;
+    padding: 0 100px;
+    box-sizing: border-box;
+}
+
+.footer_top_con ul {
+    display: inline-block;
+    height: 100px;
+}
+
+.footer_top_con ul li {
+    float: left;
+    margin-right: 80px;
+    padding-top: 30px;
+}
+
+.footer_top_con ul li a {
+    color: #fff;
+    font-size: 14px;
+}
+
+.footer_top_con ul li:first-of-type a {
+    font-size: 16px;
+}
+
+.footer_top_con ul li i {
+    color: #888888;
+    font-size: 12px;
+    vertical-align: top;
+    margin-left: 26px;
+}
+
+.footer_top_con ul li span {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.sy_ddzz {
+    float: right;
+    line-height: 90px;
+}
+
+.sy_ddzz a {
+    font-size: 16px;
+    color: #fff;
+}
+
+.sy_ddzz a span {
+    margin-right: 15px;
+}
+
+.footer_center {
+    max-width: 1440px;
+    height: 460px;
+    padding: 40px 100px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border-top: 1px solid #888;
+}
+
+.footer_centerLeft ul {
+    float: left;
+    width: 250px;
+    padding-right: 10px;
+}
+
+.footer_centerLeft ul li {
+    margin-bottom: 13px;
+}
+
+.footer_centerLeft ul li a {
+    font-size: 14px;
+    color: #000;
+}
+
+.f_title {
+    font-size: 16px;
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+
+.f_titleh {
+    font-size: 14px;
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+
+.footer_right ul {
+    float: right;
+    height: 66px;
+}
+
+.footer_right ul:first-of-type {
+    width: 70px;
+}
+
+.footer_right ul:last-of-type {
+    width: 100px;
+    margin-left: 10px;
+}
+
+.footer_right ul li {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.footer_right ul li:first-of-type {
+    margin-bottom: 15px;
+}
+
+.footer_right ul li:last-of-type a {
+    font-size: 30px;
+    color: #000;
+}
+
+.weibo {
+    margin-right: 20px;
+}
+
+.footer_right ul:first-of-type li {
+    text-align: center;
+}
+
+.footer_centerBottom {
+    height: 60px;
+    margin-top: 35px;
+}
+
+.footer_centerBottom p {
+    font-size: 14px;
+}
+
+.footer_centerBottom p .icon {
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.footer_centerBottom ul li {
+    float: left;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-right: 120px;
+}
+
+.footer_bottom {
+    width: 100%;
+    background-color: #000;
+}
+
+.footer_bottom_con {
+    max-width: 1440px;
+    padding: 0 100px;
+    height: 40px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.footer_bottom_con .icon {
+    font-size: 16px;
+}
+
+.footer_bottom_con img {
+    width: 16px;
+    height: 16px;
+    margin-top: 10px;
+}
+
+.footer_bottom_con ul:last-of-type {
+    float: right;
+}
+
+.footer_bottom_con ul li {
+    float: left;
+    line-height: 33px;
+}
+
+.footer_bottom_con ul:first-of-type li {
+    padding-right: 12px;
+    margin-right: 12px;
+}
+
+.footer_bottom_con ul:last-of-type li {
+    margin-right: 12px;
+}
+
+.footer_bottom_con ul:last-of-type li:last-of-type {
+    margin-right: 0;
+}
+
+.footer_bottom_con .icon {
+    margin-right: 10px;
+}
+
+.footer_bottom_con ul li a {
+    color: #98989A;
+    font-size: 12px;
+}
+
+.fb_fenge {
+    position: relative;
+}
+
+.fb_fenge::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 13px;
+    right: 0;
+    width: 1px;
+    height: 12px;
+    border-right: 1px solid #98989a;
+}
+
+.search_class {
+    position: absolute;
+    background: #fff;
+    top: 48px;
+    right: 78px;
+    width: auto;
+    z-index: 5;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    color: #000;
+    display: none;
+}
+
+.search_class h2 .search_tuijian {
+    font-size: 14px;
+    float: left;
+    color: #000;
+    line-height: 16px;
+    margin-bottom: 10px;
+    width: 80px;
+    margin: 0 30px 0 0;
+}
+
+.search_class h2 .search_sousuo {
+    float: left;
+    width: 180px;
+    font-size: 14px;
+    color: #000;
+    line-height: 16px;
+    margin-bottom: 10px;
+}
+
+.search_class h2 .search_laji {
+    float: left;
+    width: 14px;
+    height: 16px;
+    background: url(../image/jinglingtu.png);
+    background-position: -190px -627px;
+    cursor: pointer;
+}
+
+.search_class p {
+    cursor: pointer;
+    width: 80px;
+    margin: 0 30px 0 0;
+    padding: 4px 0px;
+    font-size: 12px;
+    color: #999;
+    line-height: 14px;
+}
+
+.jian {
+    margin-left: 24px;
+    font-weight: 700;
+    font-size: 22px;
+    vertical-align: middle;
+    margin-top: -1px;
+    display: inline-block;
+}
